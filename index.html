@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
     <title>WeatherApp</title>
 </head>
 <body>
+    <div class="weather-app">
     <header>
-        <form>
+        <form class=" searcg-form">
             <input type="search"  placeholder="Enter a city. ." required />
             <input type="submit"   value="Search"/>
         </form>
     </header>
     <main>
-        <div>
+        <div weather-infromation>
     <h1>Paris</h1>
     <p>
         Tuesday 14:49, scattered clouds 
@@ -21,11 +23,12 @@
         Humidity: 25%. Wind: 2.23km/h
     </p>
         </div>
-    <div>🌨️ 12 ℃</div> 
+    <div class="emoji">🌨️ 12 ℃</div> 
 </main>
     <footer> This project was coded by <a href="https://github.com/Tsholo860" target="_blank" >Tsholofelo</a> 
         is <a href="https://github.com/Tsholo860/SheCodes-week-7" target="_blank"> 
             open-sourced on GitHub</a> </footer> and hosted on 
             <a href="https://shecodes-week-7.netlify.app" target="_blank"> Netlifly</a>
+    </div>
 </body>
 </html>
