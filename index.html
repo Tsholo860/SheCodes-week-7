@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,84 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather App</title>
 </head>
+
 <body>
     <div class="weather-app">
-    <header>
-        <form class=" searcg-form"  id="search-form">
-            <input type="search"  placeholder="Enter a city. ." required class="search-form-input" id="search-form-input"/>
-            <input type="submit"   value="Search" class="search-form-button"/>
-        </form>
-    </header>
-    <main>
-        <div class="weather-information">
-            <div>
-    <h1  class="city" id="city"></h1>
-    <p class="weather-details">
-        Tuesday 14:49, scattered clouds 
-        <br />
-        Humidity:<strong >25%</strong>. Wind: <strong > 2.23km/h</strong>
-    </p>
-        </div>
-        <div class="weather-container">
-        <div class="emoji-icon">☁️</div>
-        <div class="weather-temperature-value" id="temperature"></div>
-        <div class="weather-unit">℃</div>
-        </div> 
-        </div>
-</main>
-    <footer> 
-        This project was coded by
-         <a href="https://github.com/Tsholo860" target="_blank" >Tsholofelo</a> 
-        is <a href="https://github.com/Tsholo860/SheCodes-week-7" target="_blank"> 
-            open-sourced on GitHub</a> and
+        <header>
+            <form class=" searcg-form" id="search-form">
+                <input type="search" placeholder="Enter a city. ." required class="search-form-input"
+                    id="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
+            </form>
+        </header>
+        <main>
+            <div class="weather-information">
+                <div>
+                    <h1 class="city" id="city"></h1>
+                    <p class="weather-details">
+                        Tuesday 14:49, scattered clouds
+                        <br />
+                        Humidity:<strong>25%</strong>. Wind: <strong> 2.23km/h</strong>
+                    </p>
+                </div>
+                <div class="weather-container">
+                    <div class="emoji-icon">☁️</div>
+                    <div class="weather-temperature-value" id="temperature"></div>
+                    <div class="weather-unit">℃</div>
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <div class="weather-forecast-day">
+                    <div class="forecast-date">Tue</div>
+                    <div class="forecast-emoji">🌦️</div>
+                    <div class="forecast-temperatures">
+                        <div class="forecast-temperature"><strong>13°</strong></div>
+                        <div class="forecast-temperature">6°</div>
+                    </div>
+                </div>
+                <div class="weather-forecast-day">
+                    <div class="forecast-date">Wed</div>
+                    <div class="forecast-emoji">🌦️</div>
+                    <div class="forecast-temperatures">
+                        <div class="forecast-temperature"><strong>13°</strong></div>
+                        <div class="forecast-temperature">6°</div>
+                    </div>
+                </div>
+                <div class="weather-forecast-day">
+                    <div class="forecast-date">Thu</div>
+                    <div class="forecast-emoji">🌦️</div>
+                    <div class="forecast-temperatures">
+                        <div class="forecast-temperature"><strong>13°</strong></div>
+                        <div class="forecast-temperature">6°</div>
+                    </div>
+                </div>
+                <div class="weather-forecast-day">
+                    <div class="forecast-date">Fri</div>
+                    <div class="forecast-emoji">🌦️</div>
+                    <div class="forecast-temperatures">
+                        <div class="forecast-temperature"><strong>13°</strong></div>
+                        <div class="forecast-temperature">6°</div>
+                    </div>
+                </div>
+                <div class="weather-forecast-day">
+                    <div class="forecast-date">Sat</div>
+                    <div class="forecast-emoji">🌦️</div>
+                    <div class="forecast-temperatures">
+                        <div class="forecast-temperature"><strong>13°</strong></div>
+                        <div class="forecast-temperature">6°</div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            This project was coded by
+            <a href="https://github.com/Tsholo860" target="_blank">Tsholofelo</a>
+            is <a href="https://github.com/Tsholo860/SheCodes-week-7" target="_blank">
+                open-sourced on GitHub</a> and
             <a href="https://shecodes-week-7.netlify.app" target="_blank"> hosted on Netlifly</a>
         </footer>
         <script src="indes.js"></script>
 </body>
+
 </html>
