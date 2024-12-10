@@ -92,8 +92,10 @@ main{
     margin-bottom: .4em;
 }
 .forecast-emoji{
-    text-align: center;
-    font-size: 1.4em;
+    height: 4.6em;
+    display: block;
+    margin: 0 auto;
+    width: 4.6em;
 }
 .forecast-temperatures{
     text-align: center;
